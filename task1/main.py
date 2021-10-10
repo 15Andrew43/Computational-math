@@ -83,3 +83,4 @@ if __name__ == '__main__':
     real_solution = np.linalg.lstsq(A, b, rcond=None)
     Q, R, S = solve_eq(A, b)
     Print(Q, R, S, real_solution)
+
